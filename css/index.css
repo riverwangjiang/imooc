@@ -1,0 +1,251 @@
+@charset "UTF-8";
+html, body, div, ul, li, span, a, img, h2, p {
+  padding: 0;
+  margin: 0; }
+
+body .top .top-content, body .wrap {
+  width: 1000px;
+  margin: 0 auto; }
+
+body .wrap .main .news .title h2, body .wrap .main .course .course_title h2, body .wrap .main .sidebar .video .title h2, body .wrap .main .news .pic_news img, body .wrap .main .course .course_pic img, body .wrap .logo .logo-left, body .wrap .nav .nav-left, body .wrap .nav .nav-mid, body .wrap .nav .nav-mid ul li, body .wrap .nav .nav-right, body .wrap .list_main .new_type, body .wrap .main .course .course_type li, body .wrap .main .news, body .wrap .main .course, body .wrap .main .sidebar, body .copyright .copyright_content li {
+  float: left; }
+
+body .wrap .list_main .list_box .news_list li span, body .wrap .main .news .news_list li span, body .wrap .main .news .title span, body .wrap .main .course .course_title span, body .top .top-content li, body .wrap .logo .logo-right, body .wrap .nav .nav-mid .input, body .wrap .list_main .list_box {
+  float: right; }
+
+body .wrap .main .news .title h2, body .wrap .main .course .course_title h2, body .wrap .main .sidebar .video .title h2 {
+  width: 70%;
+  line-height: 35px;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  font-weight: bold;
+  color: #786f66;
+  padding-left: 20px; }
+
+body .wrap .list_main .new_type h2, body .wrap .list_main .list_box h2 {
+  height: 35px;
+  line-height: 35px;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #666;
+  background: url(../images/titile_bg.gif) repeat-x;
+  padding-left: 20px; }
+
+body .wrap .list_main .list_box .news_list, body .wrap .main .news .news_list {
+  margin-top: 20px; }
+  body .wrap .list_main .list_box .news_list li, body .wrap .main .news .news_list li {
+    list-style-type: none;
+    background: url(../images/list.jpg) no-repeat;
+    padding-left: 10px;
+    margin: 8px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 12px; }
+    body .wrap .list_main .list_box .news_list li a, body .wrap .main .news .news_list li a {
+      text-decoration: none;
+      color: #000; }
+      body .wrap .list_main .list_box .news_list li a:hover, body .wrap .main .news .news_list li a:hover {
+        color: #c00; }
+    body .wrap .list_main .list_box .news_list li span, body .wrap .main .news .news_list li span {
+      color: #999; }
+
+body .wrap .main .news .title, body .wrap .main .course .course_title {
+  height: 35px;
+  border-bottom: 2px solid #e8e8e8; }
+  body .wrap .main .news .title span, body .wrap .main .course .course_title span {
+    width: 20%;
+    line-height: 35px;
+    text-align: right;
+    padding-right: 10px; }
+    body .wrap .main .news .title span a, body .wrap .main .course .course_title span a {
+      text-decoration: none;
+      color: #999; }
+
+body .wrap .main .news .pic_news, body .wrap .main .course .course_pic {
+  height: 80px;
+  margin-top: 10px;
+  line-height: 22px;
+  font-size: 12px; }
+  body .wrap .main .news .pic_news img, body .wrap .main .course .course_pic img {
+    margin: 0 5px; }
+  body .wrap .main .news .pic_news a, body .wrap .main .course .course_pic a {
+    color: #c00;
+    text-decoration: none;
+    font-size: 16px; }
+
+body {
+  background-color: #f5f5f5; }
+  body .top {
+    height: 27px;
+    background: url(../images/top_bg.jpg) repeat-x; }
+    body .top .top-content li {
+      list-style: none;
+      padding: 0 10px;
+      line-height: 27px; }
+      body .top .top-content li a:link, body .top .top-content li a:visited {
+        color: #8e8e8e;
+        text-decoration: none; }
+      body .top .top-content li a:hover, body .top .top-content li a:active {
+        color: #900;
+        text-decoration: none; }
+  body .wrap .logo {
+    height: 80px;
+    background-color: #fff; }
+    body .wrap .logo .logo-left {
+      width: 200px; }
+    body .wrap .logo .logo-right {
+      width: 300px;
+      height: 28px;
+      margin-top: 30px;
+      color: #8e8e8e; }
+      body .wrap .logo .logo-right img {
+        vertical-align: middle;
+        margin-left: 10px; }
+      body .wrap .logo .logo-right .tel {
+        font-size: 16px;
+        color: #c00;
+        font-family: "微软雅黑"; }
+  body .wrap .nav {
+    height: 40px;
+    clear: both; }
+    body .wrap .nav .nav-left {
+      width: 10px;
+      height: 40px;
+      background: url(../images/nav_left.jpg) no-repeat; }
+    body .wrap .nav .nav-mid {
+      width: 980px;
+      height: 40px;
+      background: url(../images/nav_bg.jpg) repeat-x; }
+      body .wrap .nav .nav-mid ul {
+        list-style: none; }
+        body .wrap .nav .nav-mid ul li {
+          width: 100px;
+          text-align: center;
+          line-height: 40px; }
+          body .wrap .nav .nav-mid ul li a:link, body .wrap .nav .nav-mid ul li a:visited {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+            font-family: "微软雅黑"; }
+          body .wrap .nav .nav-mid ul li a:hover, body .wrap .nav .nav-mid ul li a:active {
+            text-decoration: none;
+            color: #ff0;
+            font-size: 16px;
+            font-family: "微软雅黑"; }
+      body .wrap .nav .nav-mid .input {
+        padding-right: 30px;
+        margin-top: 5px;
+        width: 300px;
+        height: 25px;
+        background: url(../images/search.jpg) no-repeat right;
+        background-color: #fff;
+        border: 1px solid #fff; }
+    body .wrap .nav .nav-right {
+      width: 10px;
+      height: 40px;
+      background: url(../images/nav_right.jpg) no-repeat; }
+  body .wrap .ad {
+    height: 310px;
+    overflow: hidden; }
+  body .wrap .list_main {
+    background-color: #fff;
+    margin-top: 10px; }
+    body .wrap .list_main .new_type {
+      width: 220px;
+      height: 350px;
+      border: 1px solid #e8e8e8; }
+      body .wrap .list_main .new_type .new_type_content {
+        height: 315px;
+        background: url(../images/content_bg.gif) repeat-x; }
+        body .wrap .list_main .new_type .new_type_content li {
+          list-style-type: none;
+          height: 30px;
+          line-height: 30px; }
+          body .wrap .list_main .new_type .new_type_content li a {
+            color: #666;
+            text-decoration: none;
+            background: url(../images/li_bg.gif) no-repeat left center;
+            padding-left: 15px;
+            display: block; }
+            body .wrap .list_main .new_type .new_type_content li a:hover {
+              color: #009cdf;
+              background: url(../images/li_bg2.gif) no-repeat left center;
+              background-color: #f2f2f2; }
+    body .wrap .list_main .list_box {
+      width: 770px;
+      min-height: 350px;
+      border: 1px solid #e8e8e8; }
+      body .wrap .list_main .list_box .page {
+        height: 40px;
+        margin-top: 10px;
+        text-align: center; }
+        body .wrap .list_main .list_box .page a {
+          display: inline-block;
+          border: 1px solid #e8e8e8;
+          text-decoration: none;
+          margin: 5px;
+          padding: 5px 10px; }
+          body .wrap .list_main .list_box .page a:link, body .wrap .list_main .list_box .page a:visited {
+            color: #000; }
+          body .wrap .list_main .list_box .page a:hover, body .wrap .list_main .list_box .page a:active {
+            color: #fff;
+            background-color: #c00; }
+  body .wrap .main {
+    height: 250px;
+    margin-top: 5px; }
+    body .wrap .main .news {
+      width: 340px;
+      border: 1px solid #e8e8e8; }
+    body .wrap .main .course {
+      width: 410px;
+      border: 1px solid #e8e8e8;
+      margin: 0 7px; }
+      body .wrap .main .course .course_pic {
+        height: 120px; }
+      body .wrap .main .course .course_type {
+        height: 27px;
+        width: 372px;
+        margin: 20px auto;
+        background: url(../images/product_type_bg.jpg) no-repeat; }
+        body .wrap .main .course .course_type li {
+          list-style-type: none;
+          line-height: 27px;
+          margin: 0 12px; }
+    body .wrap .main .sidebar {
+      width: 230px; }
+      body .wrap .main .sidebar .video {
+        height: 185px;
+        border: 1px solid #e8e8e8; }
+        body .wrap .main .sidebar .video .title {
+          height: 35px;
+          border-bottom: 2px solid #e8e8e8; }
+        body .wrap .main .sidebar .video .video_content {
+          height: 150px; }
+      body .wrap .main .sidebar .sidebar_ad {
+        height: 55px;
+        border: 1px solid #e8e8e8;
+        margin-top: 8px; }
+    body .wrap .main .news, body .wrap .main .course, body .wrap .main .sidebar {
+      height: 250px; }
+  body .copyright {
+    padding-top: 20px;
+    width: 100%;
+    height: 200px;
+    background-color: #e8e8e8;
+    clear: both; }
+    body .copyright .copyright_content {
+      width: 1000px;
+      height: 200px;
+      margin: 0 auto; }
+      body .copyright .copyright_content li {
+        list-style-type: none;
+        width: 200px;
+        background: url(../images/line.png) no-repeat right center;
+        text-align: center;
+        line-height: 30px;
+        font-family: "微软雅黑"; }
+        body .copyright .copyright_content li a {
+          text-decoration: none;
+          color: #999;
+          font-size: 18px; }
+        body .copyright .copyright_content li ul > li > a {
+          font-size: 14px; }
